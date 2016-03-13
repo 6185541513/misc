@@ -1,0 +1,11 @@
+void space_between_functions();
+void no_01_key();
+void no_02_int();
+void no_03_threeInts();
+void no_04_reelNo();
+void no_05_intAndReel();
+void no_06_string();
+void no_07_wholeLine();
+void no_08_intAndString();
+void no_09_stringAndReel();
+void no_10_lineAndNegative();

@@ -1,0 +1,91 @@
+﻿Build started 2016-03-13 15:46:16.
+     1>Project "D:\Repos\Misc\Misc\Basic tasks - C++\Intro_cpp.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Intro_cpp.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "00-HelloWorld.cpp" "01-age.cpp" "02-threeNumbers.cpp" "03-alphabet.cpp" "04-add32.cpp" "05-circleArea.cpp" "06-petrol.cpp" "07-pondsTokg.cpp" "08-rentCar.cpp" "09-bill.cpp" "10-intModulo.cpp" "11-centsModulo.cpp" "12-registerCalc.cpp" "15-fever.cpp" "14-largestInts.cpp" "18a-printFor.cpp" "16-square.cpp" "17-squareTwist.cpp" "13-vote.cpp" "18b-printWhile.cpp" "19a-evenOdd.cpp" "19b-evenPrint.cpp" "20-fiveFloats.cpp" "21-backwards.cpp" "22-hundred.cpp" "23-floatInte.cpp" "24-celsFahr.cpp" "25-arithmetic.cpp" "29-swap.cpp" "58-charpek.cpp" "59-vektor.cpp" "27-blockArea.cpp" "26-floatPow.cpp" "28-sumofall.cpp"
+         28-sumofall.cpp
+         26-floatPow.cpp
+         27-blockArea.cpp
+         59-vektor.cpp
+         58-charpek.cpp
+         29-swap.cpp
+         25-arithmetic.cpp
+         24-celsFahr.cpp
+         23-floatInte.cpp
+         22-hundred.cpp
+         21-backwards.cpp
+     1>d:\repos\misc\misc\basic tasks - c++\21-backwards.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+         20-fiveFloats.cpp
+         19b-evenPrint.cpp
+         19a-evenOdd.cpp
+         18b-printWhile.cpp
+         13-vote.cpp
+         17-squareTwist.cpp
+         16-square.cpp
+         18a-printFor.cpp
+         14-largestInts.cpp
+         Generating Code...
+         Compiling...
+         15-fever.cpp
+         12-registerCalc.cpp
+     1>d:\repos\misc\misc\basic tasks - c++\12-registercalc.cpp(22): warning C4129: 'h' : unrecognized character escape sequence
+         11-centsModulo.cpp
+     1>d:\repos\misc\misc\basic tasks - c++\11-centsmodulo.cpp(10): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\repos\misc\misc\basic tasks - c++\11-centsmodulo.cpp(11): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         10-intModulo.cpp
+     1>d:\repos\misc\misc\basic tasks - c++\10-intmodulo.cpp(11): warning C4129: 'M' : unrecognized character escape sequence
+     1>d:\repos\misc\misc\basic tasks - c++\10-intmodulo.cpp(8): warning C4101: 'div' : unreferenced local variable
+         09-bill.cpp
+         08-rentCar.cpp
+         07-pondsTokg.cpp
+     1>d:\repos\misc\misc\basic tasks - c++\07-pondstokg.cpp(6): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         06-petrol.cpp
+         05-circleArea.cpp
+     1>d:\repos\misc\misc\basic tasks - c++\05-circlearea.cpp(6): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         04-add32.cpp
+         03-alphabet.cpp
+         02-threeNumbers.cpp
+         01-age.cpp
+         00-HelloWorld.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Repos\Misc\Misc\Basic tasks - C++\Debug\Exercises_cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Repos\Misc\Misc\Basic tasks - C++\Debug\Exercises_cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Repos\Misc\Misc\Basic tasks - C++\Debug\Exercises_cpp.lib" /MACHINE:X86 "Debug\00-HelloWorld.obj"
+         "Debug\01-age.obj"
+         "Debug\02-threeNumbers.obj"
+         "Debug\03-alphabet.obj"
+         "Debug\04-add32.obj"
+         "Debug\05-circleArea.obj"
+         "Debug\06-petrol.obj"
+         "Debug\07-pondsTokg.obj"
+         "Debug\08-rentCar.obj"
+         "Debug\09-bill.obj"
+         "Debug\10-intModulo.obj"
+         "Debug\11-centsModulo.obj"
+         "Debug\12-registerCalc.obj"
+         "Debug\15-fever.obj"
+         "Debug\14-largestInts.obj"
+         "Debug\18a-printFor.obj"
+         "Debug\16-square.obj"
+         "Debug\17-squareTwist.obj"
+         "Debug\13-vote.obj"
+         "Debug\18b-printWhile.obj"
+         "Debug\19a-evenOdd.obj"
+         "Debug\19b-evenPrint.obj"
+         "Debug\20-fiveFloats.obj"
+         "Debug\21-backwards.obj"
+         "Debug\22-hundred.obj"
+         "Debug\23-floatInte.obj"
+         "Debug\24-celsFahr.obj"
+         "Debug\25-arithmetic.obj"
+         "Debug\29-swap.obj"
+         "Debug\58-charpek.obj"
+         "Debug\59-vektor.obj"
+         "Debug\27-blockArea.obj"
+         "Debug\26-floatPow.obj"
+         "Debug\28-sumofall.obj"
+         Intro_cpp.vcxproj -> D:\Repos\Misc\Misc\Basic tasks - C++\Debug\Exercises_cpp.exe
+     1>Done Building Project "D:\Repos\Misc\Misc\Basic tasks - C++\Intro_cpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.83

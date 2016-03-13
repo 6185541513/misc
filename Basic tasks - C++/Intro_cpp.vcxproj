@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA5E87D7-B092-4083-9B59-E27C487D3BC2}</ProjectGuid>
+    <RootNamespace>Intro_cpp</RootNamespace>
+    <ProjectName>Exercises_cpp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="00-HelloWorld.cpp" />
+    <ClCompile Include="01-age.cpp" />
+    <ClCompile Include="02-threeNumbers.cpp" />
+    <ClCompile Include="03-alphabet.cpp" />
+    <ClCompile Include="04-add32.cpp" />
+    <ClCompile Include="05-circleArea.cpp" />
+    <ClCompile Include="06-petrol.cpp" />
+    <ClCompile Include="07-pondsTokg.cpp" />
+    <ClCompile Include="08-rentCar.cpp" />
+    <ClCompile Include="09-bill.cpp" />
+    <ClCompile Include="10-intModulo.cpp" />
+    <ClCompile Include="11-centsModulo.cpp" />
+    <ClCompile Include="12-registerCalc.cpp" />
+    <ClCompile Include="15-fever.cpp" />
+    <ClCompile Include="14-largestInts.cpp" />
+    <ClCompile Include="18a-printFor.cpp" />
+    <ClCompile Include="16-square.cpp" />
+    <ClCompile Include="17-squareTwist.cpp" />
+    <ClCompile Include="13-vote.cpp" />
+    <ClCompile Include="18b-printWhile.cpp" />
+    <ClCompile Include="19a-evenOdd.cpp" />
+    <ClCompile Include="19b-evenPrint.cpp" />
+    <ClCompile Include="20-fiveFloats.cpp" />
+    <ClCompile Include="21-backwards.cpp" />
+    <ClCompile Include="22-hundred.cpp" />
+    <ClCompile Include="23-floatInte.cpp" />
+    <ClCompile Include="24-celsFahr.cpp" />
+    <ClCompile Include="25-arithmetic.cpp" />
+    <ClCompile Include="29-swap.cpp" />
+    <ClCompile Include="58-charpek.cpp" />
+    <ClCompile Include="59-vektor.cpp" />
+    <ClCompile Include="27-blockArea.cpp" />
+    <ClCompile Include="26-floatPow.cpp" />
+    <ClCompile Include="28-sumofall.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
